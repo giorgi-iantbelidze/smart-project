@@ -1,0 +1,10 @@
+
+.addtocard {
+  width: 70%;
+  height: 70px;
+  color: black;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  outline: none;
+  font-size: 20px;
+}
