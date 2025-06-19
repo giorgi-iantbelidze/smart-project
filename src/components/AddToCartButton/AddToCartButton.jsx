@@ -9,7 +9,7 @@ const AddToCartButton = ({product}) =>{
     const handleAddToCart = () => {
         dispatch(addToCart(product));
     };
-    console.log( product);
+  
     return (
         <div>
             <button className={styles.addtocard} onClick={handleAddToCart}>Add to Card</button></div>

@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import styles from "./page.module.css";
 import Image from "next/image";
-import { useRouter, redirect } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { useAppSelector } from "@/lib/hooks";
 import AddToCartButton from "@/components/AddToCartButton/AddToCartButton";
 const Product = () => {
@@ -33,7 +33,7 @@ const Product = () => {
             <p>${product.price}</p>
             <button
               className={styles.button1}
-              onClick={() => redirect(`/product/details/${product.id}`)}
+              onClick={() => router.push(`/product/details/${product.id}`)}
             >
               see details
             </button>
