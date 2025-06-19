@@ -1,4 +1,231 @@
-.parent{
-    
-    padding-top: 400px;
+.mainparent{
+    width: 100%;
+    height: 190vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     background-color: rgb(187, 179, 179);
 }
+.child{
+    width:100%;
+    height: 20%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 270px;
+}
+
+.child2 {
+  width: 80%;
+  height: 1400px;
+  display: flex;
+  justify-content: center;
+
+  gap: 20px;
+  background-color: rgb(204, 198, 198);
+}
+.cart {
+  width: 100%;
+  height: 1200px;
+}
+.title {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px, solid rgb(15, 5, 5);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.cards {
+  width: 100%;
+  height: 600px;
+}
+.divdiv {
+  color: black;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image {
+  width: 30%;
+
+  gap: 20px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+}
+.quantity {
+  padding-left: 150px;
+  width: 30%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section {
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+.minus,
+.plus {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: rgb(204, 198, 198);
+}
+.number {
+  width: 30px;
+  height: 30px;
+  font-size: 25px;
+  border: 1px solid gray;
+  outline: none;
+  background-color: rgba(218, 211, 203, 0.755);
+  border-radius: 5px;
+  color: rgb(35, 34, 34);
+}
+.price {
+  width: 40%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 22px;
+  padding-left: 355px;
+}
+.number {
+  width: 30px;
+  height: 30px;
+  font-size: 25px;
+  border: 1px solid gray;
+  outline: none;
+  background-color: rgba(218, 211, 203, 0.755);
+  border-radius: 5px;
+  color: rgb(35, 34, 34);
+}
+.minus,
+.plus {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: rgb(204, 198, 198);
+}
+
+.shop {
+  width: 30%;
+  height: 500px;
+  border: none;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.order {
+  width: 100%;
+  height: 35%;
+}
+.p {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  background-color: rgb(177, 175, 175);
+  border-bottom: 1px solid gray;
+}
+.applay {
+  width: 100%;
+  height: 45%;
+  background-color: rgb(177, 175, 175);
+}
+.btn1 {
+  width: 100%;
+  height: 20%;
+  border-radius: 15px;
+  color: white;
+  background-color: rgb(8, 172, 8);
+  border: none;
+  outline: none;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn2 {
+  border-radius: 15px;
+  color: white;
+  background-color: rgb(8, 172, 8);
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+.shipping {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(177, 175, 175);
+}
+.coupon {
+  width: 100%;
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+.coupons {
+  width: 100%;
+  height: 30%;
+  color: black;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.couponcode {
+  width: 70%;
+  height: 30%;
+  border: 2px solid white;
+  border-radius: 7px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.applaybutton {
+  width: 30%;
+  height: 35%;
+  border-radius: 5px;
+  border: 2px solid rgb(112, 112, 112);
+  color: rgb(115, 115, 115);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.total {
+  width: 100%;
+  height: 45%;
+  background-color: rgb(177, 175, 175);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 17px;
+}
+
