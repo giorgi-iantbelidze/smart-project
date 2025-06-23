@@ -1,13 +1,14 @@
 'use client';
 import styles from "./page.module.css";
+import { useRouter} from "next/navigation";
 import { useEffect, useState } from "react";
 const Profile = () => {
     const handleLogout = () =>{
         localStorage.removeItem("token");
-        redirect('/signup/login');
+        router.push('/signup/login');
     }
 
-
+  const router = useRouter();
 
  const [products, setProducts] = useState([]);
 

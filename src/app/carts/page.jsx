@@ -67,17 +67,25 @@ const page = () => {
                     </div>
                   </div>
                   <div className={styles.quantity}>
-                    <button className={styles.plus} onClick={() => handleAddMore(item)}>+</button>
+                    <button
+                      className={styles.plus}
+                      onClick={() => handleAddMore(item)}
+                    >
+                      +
+                    </button>
                     <p className={styles.number}>{item.quantity}</p>
-                    <button className={styles.minus} onClick={() => handleMinus(item)}>-</button>
+                    <button
+                      className={styles.minus}
+                      onClick={() => handleMinus(item)}
+                    >
+                      -
+                    </button>
                   </div>
                   <div className={styles.price}>
                     <p>${item.total}</p>
                     <p onClick={() => handleDelete(item)}>
-                        <FiTrash />
+                      <FiTrash />
                     </p>
-                  
-                  
                   </div>
                 </section>
                 <hr />
